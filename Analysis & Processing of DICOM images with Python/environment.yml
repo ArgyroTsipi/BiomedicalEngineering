@@ -1,0 +1,14 @@
+name: askhsh_8
+channels:
+    - conda-forge
+dependencies:
+    - python
+    - pydicom
+    - numpy
+    - matplotlib
+    - scikit-image
+    - scipy
+    - scikit-learn
+    - tqdm
+    - plotly
+    - pandas

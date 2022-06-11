@@ -1,0 +1,100 @@
+@relation ??????-????-??????????
+
+@attribute Age numeric
+@attribute Experience numeric
+@attribute Training {YES,NO}
+@attribute 'Repetitive Training' {NO,YES}
+@attribute 'Relative PPE during the incident/accident ' {' NO',YES,NO}
+@attribute 'Opinion about Health and Safety' numeric
+@attribute Floors/Stairs numeric
+@attribute Space numeric
+@attribute Height numeric
+@attribute Volume numeric
+@attribute Doors/Windows numeric
+@attribute 'Space Illumination' numeric
+@attribute Storage/Lofts numeric
+@attribute 'Uncovered gaps' numeric
+@attribute 'Obstacles ' numeric
+@attribute 'Exits/Escape routes' numeric
+@attribute Walls numeric
+@attribute Shelves/Dexions numeric
+@attribute Cellings numeric
+@attribute Basements numeric
+@attribute Walkways numeric
+@attribute Roof numeric
+@attribute Cleanliness numeric
+@attribute 'Obstacles in fronts of exits or fire-extinguishing medium' numeric
+@attribute 'Safety/Escape Signing' numeric
+@attribute 'Maintenance Protocol' numeric
+@attribute 'Lack of safety during usage' numeric
+@attribute 'Guards for avoiding accidental start ' numeric
+@attribute Guards numeric
+@attribute 'Ejectable particles' numeric
+@attribute 'CE Signing' numeric
+@attribute Cutting numeric
+@attribute 'Lifting Machinery' numeric
+@attribute 'Transport Vehicles' numeric
+@attribute Ladders numeric
+@attribute 'Pneumatic tools' numeric
+@attribute Elevators numeric
+@attribute Machinery numeric
+@attribute 'Non Usage of PPE' numeric
+@attribute 'Pressure Devices' numeric
+@attribute Access numeric
+@attribute 'Electrical Installation' numeric
+@attribute 'Inappropriate usage of electrical installation' numeric
+@attribute 'Ιnappropriateness in explosive atmospheres' numeric
+@attribute 'Lack of safety during usage of electrical installation' numeric
+@attribute 'Lack of safety during manintenance of electrical installation' numeric
+@attribute 'Ηazardous substances (generators, batteries etc.)' numeric
+@attribute 'Toxic substances' numeric
+@attribute 'Caustic substances' numeric
+@attribute 'Corrosive substances' numeric
+@attribute 'Irritant substances' numeric
+@attribute 'Oxidising substances' numeric
+@attribute 'Explosive substances' numeric
+@attribute 'Flammable substances' numeric
+@attribute 'Appropriate cabinets ' numeric
+@attribute 'Fire signing according to substances' numeric
+@attribute 'Banning smoking sign' numeric
+@attribute 'Banning flame sign' numeric
+@attribute 'Storage of flammable material' numeric
+@attribute 'Lack of Fire Protection Systems' numeric
+@attribute 'Training in Fire Emergency Plan ' numeric
+@attribute 'Fire Extinguishers' numeric
+@attribute 'Lack in Fire Security training ' numeric
+@attribute Dust numeric
+@attribute 'Fibres asbestos' numeric
+@attribute ' Steam-Smoke' numeric
+@attribute Particles numeric
+@attribute 'Other substances' numeric
+@attribute Dipping/Splashing numeric
+@attribute Noise numeric
+@attribute Vibrations numeric
+@attribute Radiation numeric
+@attribute Illumination numeric
+@attribute Microclimate numeric
+@attribute Bacteria numeric
+@attribute Fungi numeric
+@attribute Viruses numeric
+@attribute 'Other Factors' numeric
+@attribute 'Settlement - Manual Handling' numeric
+@attribute 'Psychological Factors' numeric
+@attribute 'Provision Intervention Programs' numeric
+@attribute Ergonomy numeric
+@attribute 'Hardship Conditions' numeric
+@attribute Output {Falling,Safety,Needlestick/Cut,Incident}
+
+@data
+43,16,YES,NO,' NO',4,4,4,4,4,4,4,4,4,36,4,4,36,4,4,24,4,36,36,36,4,36,4,4,4,4,4,4,4,64,4,4,4,4,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,36,4,4,Falling
+43,16,YES,YES,YES,2,4,4,4,4,4,4,4,4,24,4,4,24,4,4,4,4,24,36,36,4,24,4,4,4,4,4,4,4,24,4,4,4,4,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,Safety
+45,8,YES,NO,NO,4,36,4,4,4,4,4,4,4,36,4,4,4,4,4,36,4,36,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,36,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,36,4,4,Falling
+45,8,YES,YES,YES,2,24,4,4,4,4,4,4,4,24,4,4,4,4,4,24,4,24,24,36,4,4,4,4,4,4,4,4,4,4,4,4,4,24,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,Safety
+42,18,NO,NO,NO,4,4,36,4,4,4,4,4,4,4,4,4,4,24,4,4,4,64,36,36,36,36,4,4,4,4,64,4,4,4,4,4,64,36,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,Needlestick/Cut
+42,18,YES,YES,YES,2,4,24,4,4,4,4,4,4,4,4,4,4,24,4,4,4,24,36,36,24,24,4,4,4,4,36,4,4,4,4,4,36,24,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,24,4,Safety
+50,15,NO,NO,NO,4,4,4,4,4,4,24,4,4,4,4,4,4,4,4,4,4,36,36,36,4,4,4,4,4,4,64,4,4,4,4,4,4,36,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,36,4,4,4,4,36,36,36,36,4,Needlestick/Cut
+50,15,YES,YES,YES,2,4,4,4,4,4,24,4,4,4,4,4,4,4,4,4,4,24,36,36,4,4,4,4,4,4,36,4,4,4,4,4,4,24,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,24,4,4,4,4,24,24,4,24,4,Safety
+52,14,NO,NO,NO,4,4,36,4,4,4,4,4,4,36,4,4,4,4,4,4,4,36,36,36,36,36,36,4,36,24,4,4,4,4,4,4,4,4,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,36,4,4,4,4,4,4,36,36,4,Incident
+52,14,YES,YES,YES,2,4,24,4,4,4,4,4,4,24,4,4,4,4,4,4,4,24,36,36,24,24,24,4,24,4,4,4,4,4,4,4,4,4,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,24,4,4,4,4,4,4,4,24,4,Safety
+47,12,NO,NO,NO,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,36,36,36,4,24,4,4,4,4,4,4,4,4,4,4,4,36,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,36,4,4,4,4,36,36,36,36,4,Incident
+47,12,YES,YES,YES,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,24,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,24,4,4,64,36,4,4,4,4,4,4,4,4,4,4,4,4,36,36,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,24,4,4,4,4,24,24,4,24,4,Safety
